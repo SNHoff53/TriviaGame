@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
         <title>Triva Game</title>
 </head>
 <body>
@@ -15,201 +17,25 @@
     <div class="container-fluid">
         <div class="card text-center">
             <div class="card-body">
-              <h2 class="display-3">Total Trivial Trivia</h2>
+              <h2 class="display-4">Total Trivial Trivia</h2>
               <h4 class="card-text">How well do you know what's in space?</h4>
-              <a href="#" class="btn btn-primary">Start Game</a>
+              <div class="btn btn-primary" id="start">Start</div>
             </div>
           </div>
       </div>
-
-    // TIMER
-    
+        
     <br>
       <div class="container-fluid">
         <div class="card text-center">
-          <div class="container-fluid">
-              <br>
-            <h5>What type of galaxy is the most common in the universe?</h5>
-            <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-              <label class="custom-control-label" for="customRadioInline1">Elliptical galaxies</label>
-            </div>
-            <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-              <label class="custom-control-label" for="customRadioInline2">ABC galaxies</label>
-            </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
-                <label class="custom-control-label" for="customRadioInline3">pizza galaxies</label>
+          <div class="container-fluid"><br><br>
+              <div id="wrapper">
+                <div id="countdown-timer">Time Remaining: </div><br><br> 
               </div>
-              <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadioInline4">taco galaxies</label>
-                </div><br>
-              <br>
-            <div class="container-fluid">
-                <h5>What is the most common type of star found in the Milky Way?</h5>
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" id="customRadioInline5" name="customRadioInline2" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadioInline5">White Dwarf stars</label>
-                </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" id="customRadioInline6" name="customRadioInline2" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadioInline6">Protostars</label>
-                </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline7" name="customRadioInline2" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline7">Red Dwarf stars</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline8" name="customRadioInline2" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline8">Giant Red stars</label>
-                  </div>
-              </div>
-              <br>
-              <div class="container-fluid">
-                  <h5>What is the farthest distance from Earth a manned mission has traveled? (Plus or minus 20,000 miles.)</h5>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline9" name="customRadioInline3" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline9">100,000 miles</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline10" name="customRadioInline3" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline10">543,678 miles</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline11" name="customRadioInline3" class="custom-control-input">
-                      <label class="custom-control-label" for="customRadioInline11">395,600 miles</label>
-                    </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline12" name="customRadioInline3" class="custom-control-input">
-                      <label class="custom-control-label" for="customRadioInline12">248,655 miles</label>
-                    </div>
-                </div>
-                <br>
-                <div class="container-fluid">
-                    <h5>What are the dimensions in inches of the first footprint on Earth’s moon?</h5>
-                    <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline13" name="customRadioInline4" class="custom-control-input">
-                      <label class="custom-control-label" for="customRadioInline13">12 by 4 inches</label>
-                    </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="customRadioInline14" name="customRadioInline4" class="custom-control-input">
-                      <label class="custom-control-label" for="customRadioInline14">13 by 6 inches</label>
-                    </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline15" name="customRadioInline4" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline15">15 by 5 inches</label>
-                      </div>
-                      <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline16" name="customRadioInline4" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline16">10 by 7 inches</label>
-                      </div>
-                  </div>
-                  <br>
-                  <div class="container-fluid">
-                      <h5>How old is the universe in years? (Plus or minus 1 billion years.)</h5>
-                      <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline17" name="customRadioInline5" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline17">13.8 billion years old</label>
-                      </div>
-                      <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline18" name="customRadioInline5" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline18">20.4 billions years old</label>
-                      </div>
-                      <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="customRadioInline19" name="customRadioInline5" class="custom-control-input">
-                          <label class="custom-control-label" for="customRadioInline19">14 billion years old</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="customRadioInline20" name="customRadioInline5" class="custom-control-input">
-                          <label class="custom-control-label" for="customRadioInline20">23.8 billions years old</label>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="container-fluid">
-                        <h5>What percent of the universe is dark matter? (Plus or minus 2%.)</h5>
-                        <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="customRadioInline21" name="customRadioInline6" class="custom-control-input">
-                          <label class="custom-control-label" for="customRadioInline21">15%</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="customRadioInline22" name="customRadioInline6" class="custom-control-input">
-                          <label class="custom-control-label" for="customRadioInline22">20%</label>
-                        </div>
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="customRadioInline23" name="customRadioInline6" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline23">27%</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="customRadioInline24" name="customRadioInline6" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline24">30%</label>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="container-fluid">
-                          <h5>How many minutes was the shortest space flight?</h5>
-                          <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="customRadioInline25" name="customRadioInline7" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline25">10 minutes</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="customRadioInline26" name="customRadioInline7" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline26">15 minutes</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline">
-                              <input type="radio" id="customRadioInline27" name="customRadioInline7" class="custom-control-input">
-                              <label class="custom-control-label" for="customRadioInline27">25 minutes</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                              <input type="radio" id="customRadioInline28" name="customRadioInline7" class="custom-control-input">
-                              <label class="custom-control-label" for="customRadioInline28">30 minutes</label>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="container-fluid">
-                            <h5>How many moons does Jupiter have?</h5>
-                            <div class="custom-control custom-radio custom-control-inline">
-                              <input type="radio" id="customRadioInline29" name="customRadioInline8" class="custom-control-input">
-                              <label class="custom-control-label" for="customRadioInline29">80</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                              <input type="radio" id="customRadioInline30" name="customRadioInline8" class="custom-control-input">
-                              <label class="custom-control-label" for="customRadioInline30">20</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline31" name="customRadioInline8" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline31">108</label>
-                              </div>
-                              <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline32" name="customRadioInline8" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline32">67</label>
-                              </div>
-                          </div>
-                          <br>
-                          <div class="container-fluid">
-                              <h5>What flavor ice cream did Baskin-Robbins release in 1969 to commemorate America’s landing on the moon?</h5>
-                              <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline33" name="customRadioInline9" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline33">Out Of This World Swirl</label>
-                              </div>
-                              <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline34" name="customRadioInline9" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline34">Lunar Cheesecake</label>
-                              </div>
-                              <div class="custom-control custom-radio custom-control-inline">
-                                  <input type="radio" id="customRadioInline35" name="customRadioInline9" class="custom-control-input">
-                                  <label class="custom-control-label" for="customRadioInline35">Apollo's Lunar Landing </label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                  <input type="radio" id="customRadioInline36" name="customRadioInline9" class="custom-control-input">
-                                  <label class="custom-control-label" for="customRadioInline36">One Giant Leap for Chocolately Fudge</label>
-                                </div>
-                            </div>
-                            <br>
+            
+              <div class="trivia-questions"></div>
+            </div>
           </div>
         </div>
-      </div>
 
 
     <!-- Optional JavaScript -->

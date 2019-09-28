@@ -3,3 +3,17 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+#start {
+    background-color: darkslateblue;
+    border-color: darkslateblue;
+}
+
+#countdown-timer {
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Comfortaa', cursive;
+}
