@@ -66,10 +66,59 @@ $("#start").on("click", function() {
     runGame();
 
     $("#trivia-question1").html("<h3>" + triviaQuestions[0].question + "</h3>");
-    $("#answer1").html("<input type='radio' id='customRadioInline1' name='customRadioInline1' value='0'>" + "<label>" + "triviaQuestions[0].answers[0]" + "</label>"
-    + "<input type='radio' id='customRadioInline2' name='customRadioInline1' value='1'>" + "<label>" + "triviaQuestions[0].answers[1]" + "</label>"
-    + "<input type='radio' id='customRadioInline3' name='customRadioInline1' value='2'>" + "<label>" + "triviaQuestions[0].answers[2]" + "</label>"
-    + "<input type='radio' id='customRadioInline4' name='customRadioInline1' value='3'>" + "<label>" + "triviaQuestions[0].answers[3]" + "</label>"
+    $("#answer1").html("<input type='radio' name='customRadioInline1' value='0'>" + "<label>" + "triviaQuestions[0].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline1' value='1'>" + "<label>" + "triviaQuestions[0].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline1' value='2'>" + "<label>" + "triviaQuestions[0].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline1' value='3'>" + "<label>" + "triviaQuestions[0].answers[3]" + "</label>"
+    );
+
+    $("#trivia-question1").html("<h3>" + triviaQuestions[1].question + "</h3>");
+    $("#answer1").html("<input type='radio' name='customRadioInline2' value='0'>" + "<label>" + "triviaQuestions[1].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline2' value='1'>" + "<label>" + "triviaQuestions[1].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline2' value='2'>" + "<label>" + "triviaQuestions[1].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline2' value='3'>" + "<label>" + "triviaQuestions[1].answers[3]" + "</label>"
+    );
+
+    $("#trivia-question1").html("<h3>" + triviaQuestions[2].question + "</h3>");
+    $("#answer1").html("<input type='radio' name='customRadioInline3' value='0'>" + "<label>" + "triviaQuestions[2].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline3' value='1'>" + "<label>" + "triviaQuestions[2].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline3' value='2'>" + "<label>" + "triviaQuestions[2].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline3' value='3'>" + "<label>" + "triviaQuestions[2].answers[3]" + "</label>"
+    );
+
+    $("#trivia-question1").html("<h3>" + triviaQuestions[3].question + "</h3>");
+    $("#answer1").html("<input type='radio' name='customRadioInline4' value='0'>" + "<label>" + "triviaQuestions[0].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline4' value='1'>" + "<label>" + "triviaQuestions[3].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline4' value='2'>" + "<label>" + "triviaQuestions[3].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline4' value='3'>" + "<label>" + "triviaQuestions[3].answers[3]" + "</label>"
+    );
+
+    $("#trivia-question1").html("<h3>" + triviaQuestions[4].question + "</h3>");
+    $("#answer1").html("<input type='radio' name='customRadioInline5' value='0'>" + "<label>" + "triviaQuestions[4].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline5' value='1'>" + "<label>" + "triviaQuestions[4].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline5' value='2'>" + "<label>" + "triviaQuestions[4].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline5' value='3'>" + "<label>" + "triviaQuestions[4].answers[3]" + "</label>"
+    );
+
+    $("#trivia-question1").html("<h3>" + triviaQuestions[5].question + "</h3>");
+    $("#answer1").html("<input type='radio' name='customRadioInline6' value='0'>" + "<label>" + "triviaQuestions[5].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline6' value='1'>" + "<label>" + "triviaQuestions[5].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline6' value='2'>" + "<label>" + "triviaQuestions[5].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline6' value='3'>" + "<label>" + "triviaQuestions[5].answers[3]" + "</label>"
+    );
+
+    $("#trivia-question1").html("<h3>" + triviaQuestions[6].question + "</h3>");
+    $("#answer1").html("<input type='radio' name='customRadioInline7' value='0'>" + "<label>" + "triviaQuestions[6].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline7' value='1'>" + "<label>" + "triviaQuestions[6].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline7' value='2'>" + "<label>" + "triviaQuestions[06].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline7' value='3'>" + "<label>" + "triviaQuestions[6].answers[3]" + "</label>"
+    );
+
+    $("#trivia-question1").html("<h3>" + triviaQuestions[7].question + "</h3>");
+    $("#answer1").html("<input type='radio' id='customRadioInline1' name='customRadioInline1' value='0'>" + "<label>" + "triviaQuestions[8].answers[0]" + "</label>"
+    + "<input type='radio' id='customRadioInline2' name='customRadioInline1' value='1'>" + "<label>" + "triviaQuestions[8].answers[1]" + "</label>"
+    + "<input type='radio' id='customRadioInline3' name='customRadioInline1' value='2'>" + "<label>" + "triviaQuestions[9].answers[2]" + "</label>"
+    + "<input type='radio' id='customRadioInline4' name='customRadioInline1' value='3'>" + "<label>" + "triviaQuestions[9].answers[3]" + "</label>"
     );
 }
 
