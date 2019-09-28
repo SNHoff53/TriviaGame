@@ -12,11 +12,17 @@ body{
 #start {
     background-color: darkslateblue;
     border-color: darkslateblue;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #countdown-timer {
     font-family: 'Comfortaa', cursive;
     font-size: 40px;
+    color: white;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5 {
