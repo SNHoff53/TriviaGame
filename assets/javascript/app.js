@@ -2,9 +2,9 @@
 var countDown; // variable that will hold our interval ID when game "runs"
 var timer = 90; // setting the timer @ 90 seconds
 var answerCounter = 0;
-var CorrectCounter = 0;
-var IncorrectCounter = 0;
-var UnansweredCounter = 0;
+var correctCounter = 0;
+var incorrectCounter = 0;
+var unansweredCounter = 0;
 
 // List of trivia questions (constant)
 const triviaQuestions = [
@@ -56,14 +56,19 @@ const triviaQuestions = [
 ];
 
 
-// Click the Start button to begin (event button .on("click" function()))
-// Create a function that counts down
-$("#start").on("click", function() {
-    $(this).hide();
+// Game begins when user clicks the Start button
+// $(document).ready(function(){
+//     $("#start").on("click", gameStart()
+// });
 
-    $("#time").html("<h2>Time Remaining: 90 seconds</h2>"+ "<br></br>")
-
-    runGame();
+// function runGame(), { begin counting timer down
+    // timer--;
+    // $("#triviaQuestions").hide();
+    // $("#time").html("<h2>Time Remaining: 90 seconds</h2>"+ "<br></br>");
+    // clearInterval(countDown);
+//}
+// $("#start").on("click", function() {
+//}
 // Display the questions
     $("#trivia-question1").html("<h3>" + triviaQuestions[0].question + "</h3>");
     $("#answer1").html("<input type='radio' name='customRadioInline1' value='0'>" + "<label>" + "triviaQuestions[0].answers[0]" + "</label>"
@@ -122,14 +127,14 @@ $("#start").on("click", function() {
     );
 }
 
-
-
-// move through the questions and choose one answer for each question
-
 // when timer hits 0 seconds, the game is over
+    // .hide all triviaQuestions & answers
+    // and display Results-Displayed
 
-// when the game is finished
-    // display Correct: (#)
-    // display Incorrect: (#)
-    // Unanswered: (#) -- total number of questions - questions not clicked
-
+// when the game is finished, test for correct, incorrect and unanswered questions
+    // if (userAnswer === answer)
+        //answerCounter++;
+    // else if (userAnswer !== answer)
+        // incorrectAnswer++;
+    // else (userAnswer === "");
+        //
