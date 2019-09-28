@@ -87,7 +87,7 @@ $("#start").on("click", function() {
     );
 
     $("#trivia-question1").html("<h3>" + triviaQuestions[3].question + "</h3>");
-    $("#answer1").html("<input type='radio' name='customRadioInline4' value='0'>" + "<label>" + "triviaQuestions[0].answers[0]" + "</label>"
+    $("#answer1").html("<input type='radio' name='customRadioInline4' value='0'>" + "<label>" + "triviaQuestions[3].answers[0]" + "</label>"
     + "<input type='radio' name='customRadioInline4' value='1'>" + "<label>" + "triviaQuestions[3].answers[1]" + "</label>"
     + "<input type='radio' name='customRadioInline4' value='2'>" + "<label>" + "triviaQuestions[3].answers[2]" + "</label>"
     + "<input type='radio' name='customRadioInline4' value='3'>" + "<label>" + "triviaQuestions[3].answers[3]" + "</label>"
@@ -115,10 +115,10 @@ $("#start").on("click", function() {
     );
 
     $("#trivia-question1").html("<h3>" + triviaQuestions[7].question + "</h3>");
-    $("#answer1").html("<input type='radio' name='customRadioInline8' value='0'>" + "<label>" + "triviaQuestions[8].answers[0]" + "</label>"
-    + "<input type='radio' name='customRadioInline8' value='1'>" + "<label>" + "triviaQuestions[8].answers[1]" + "</label>"
-    + "<input type='radio' name='customRadioInline8' value='2'>" + "<label>" + "triviaQuestions[8].answers[2]" + "</label>"
-    + "<input type='radio' name='customRadioInline8' value='3'>" + "<label>" + "triviaQuestions[8].answers[3]" + "</label>"
+    $("#answer1").html("<input type='radio' name='customRadioInline8' value='0'>" + "<label>" + "triviaQuestions[7].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline8' value='1'>" + "<label>" + "triviaQuestions[7].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline8' value='2'>" + "<label>" + "triviaQuestions[7].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline8' value='3'>" + "<label>" + "triviaQuestions[7].answers[3]" + "</label>"
     );
 }
 
