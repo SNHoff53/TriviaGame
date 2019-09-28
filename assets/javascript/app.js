@@ -64,7 +64,7 @@ $("#start").on("click", function() {
     $("#time").html("<h2>Time Remaining: 90 seconds</h2>"+ "<br></br>")
 
     runGame();
-
+// Display the questions
     $("#trivia-question1").html("<h3>" + triviaQuestions[0].question + "</h3>");
     $("#answer1").html("<input type='radio' name='customRadioInline1' value='0'>" + "<label>" + "triviaQuestions[0].answers[0]" + "</label>"
     + "<input type='radio' name='customRadioInline1' value='1'>" + "<label>" + "triviaQuestions[0].answers[1]" + "</label>"
@@ -115,15 +115,12 @@ $("#start").on("click", function() {
     );
 
     $("#trivia-question1").html("<h3>" + triviaQuestions[7].question + "</h3>");
-    $("#answer1").html("<input type='radio' id='customRadioInline1' name='customRadioInline1' value='0'>" + "<label>" + "triviaQuestions[8].answers[0]" + "</label>"
-    + "<input type='radio' id='customRadioInline2' name='customRadioInline1' value='1'>" + "<label>" + "triviaQuestions[8].answers[1]" + "</label>"
-    + "<input type='radio' id='customRadioInline3' name='customRadioInline1' value='2'>" + "<label>" + "triviaQuestions[9].answers[2]" + "</label>"
-    + "<input type='radio' id='customRadioInline4' name='customRadioInline1' value='3'>" + "<label>" + "triviaQuestions[9].answers[3]" + "</label>"
+    $("#answer1").html("<input type='radio' name='customRadioInline8' value='0'>" + "<label>" + "triviaQuestions[8].answers[0]" + "</label>"
+    + "<input type='radio' name='customRadioInline8' value='1'>" + "<label>" + "triviaQuestions[8].answers[1]" + "</label>"
+    + "<input type='radio' name='customRadioInline8' value='2'>" + "<label>" + "triviaQuestions[8].answers[2]" + "</label>"
+    + "<input type='radio' name='customRadioInline8' value='3'>" + "<label>" + "triviaQuestions[8].answers[3]" + "</label>"
     );
 }
-
-
-// Display the questions
 
 
 
