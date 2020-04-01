@@ -13,5 +13,4 @@ shown the number of questions you answered correctly and did not answer correctl
 - Bootstrap
 
 
-## Demo
 ![TrivaGame](Screen-shot-of-app.png)
